@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #020817;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-bottom: 1px solid #0f172a;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #94a3b8;
+}
+
+.subscribe {
+  background: #2563eb;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 8px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: radial-gradient(circle, #0ea5e9, #020817);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 15px;
+}
