@@ -3,28 +3,26 @@ margin:0;
 font-family:Arial;
 background:#020817;
 color:white;
-overflow-x:hidden;
 }
 
-/* NAVBAR */
-.navbar{
+/* NAV */
+.nav{
 display:flex;
 justify-content:space-between;
 padding:20px 40px;
 }
 
-.navbar a{
-color:#94a3b8;
+.nav a{
 margin:0 10px;
-text-decoration:none;
+color:#94a3b8;
 }
 
-.subscribe{
-background:#2563eb;
+.btn{
+background:#0ea5e9;
 border:none;
 padding:8px 15px;
-border-radius:8px;
 color:white;
+border-radius:8px;
 }
 
 /* HERO */
@@ -34,70 +32,47 @@ padding:120px 20px;
 position:relative;
 }
 
-/* GLOW RING */
 .ring{
-width:300px;
-height:300px;
+width:320px;
+height:320px;
 border-radius:50%;
-border:3px solid #0ea5e9;
+border:2px solid #0ea5e9;
 position:absolute;
 top:50%;
 left:50%;
 transform:translate(-50%,-50%);
-box-shadow:0 0 50px #0ea5e9;
-animation:spin 10s linear infinite;
+box-shadow:0 0 60px #0ea5e9;
+animation:spin 8s linear infinite;
 }
 
 @keyframes spin{
-0%{transform:translate(-50%,-50%) rotate(0deg);}
 100%{transform:translate(-50%,-50%) rotate(360deg);}
 }
 
-/* PROFILE IMAGE */
 .profile{
 width:180px;
 border-radius:50%;
-position:relative;
 z-index:2;
+position:relative;
 }
 
-/* SOCIAL ICONS */
-.socials i{
-font-size:22px;
+.icons i{
 margin:10px;
-cursor:pointer;
-transition:0.3s;
-}
-
-.socials i:hover{
-color:#0ea5e9;
+font-size:22px;
 }
 
 /* CARDS */
-.platforms{
-text-align:center;
-padding:50px;
-}
-
 .cards{
 display:flex;
 justify-content:center;
 gap:20px;
-flex-wrap:wrap;
 }
 
 .card{
-background:#0f172a;
 padding:20px;
-border-radius:15px;
-width:120px;
-text-align:center;
-transition:0.3s;
-}
-
-.card i{
-font-size:30px;
-margin-bottom:10px;
+border-radius:12px;
+background:#0f172a;
+transition:.3s;
 }
 
 .card:hover{
@@ -106,28 +81,23 @@ box-shadow:0 0 20px #0ea5e9;
 }
 
 /* VIDEOS */
-.videos{
-text-align:center;
-padding:50px;
-}
-
-.video-grid{
+.grid{
 display:flex;
 gap:20px;
 justify-content:center;
 }
 
-.video-grid img{
+.grid img{
 width:250px;
 border-radius:10px;
 }
 
-/* MUSIC PLAYER */
-.music-player{
+/* PLAYER */
+.player{
 position:fixed;
 bottom:0;
 width:100%;
 background:#0f172a;
-padding:10px;
 text-align:center;
+padding:10px;
 }
