@@ -4,60 +4,136 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Badhon Editzx</title>
+
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
+<!-- NAVBAR -->
 <header class="nav">
-  <div class="logo">BADHON EDITZX</div>
+  <div class="logo">
+    <img src="logo-small.png"> BADHON <span>EDITZX</span>
+  </div>
+
   <nav>
-    <a>Home</a>
+    <a class="active">Home</a>
     <a>Videos</a>
     <a>Platforms</a>
     <a>About</a>
     <a>Contact</a>
   </nav>
+
   <button class="btn">Subscribe</button>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-  <div class="ring"></div>
-  <img src="logo.png" class="profile">
 
-  <h1>BADHON EDITZX</h1>
-  <p>EDITOR | CREATOR | INNOVATOR</p>
+  <div class="circle-glow"></div>
 
-  <div class="icons">
+  <img src="hero.png" class="hero-img">
+
+  <h1>BADHON <span>EDITZX</span></h1>
+
+  <p class="tag">EDITOR | CREATOR | INNOVATOR</p>
+  <p class="sub">CRAFTING STORIES THAT INSPIRE</p>
+
+  <div class="social">
     <i class="fab fa-youtube"></i>
     <i class="fab fa-telegram"></i>
     <i class="fab fa-instagram"></i>
     <i class="fab fa-x-twitter"></i>
     <i class="fab fa-tiktok"></i>
   </div>
+
 </section>
 
+<!-- PLATFORMS -->
 <section class="platforms">
+
   <h2>MY PLATFORMS</h2>
+
   <div class="cards">
-    <div class="card red">YouTube</div>
-    <div class="card blue">Telegram</div>
-    <div class="card pink">Instagram</div>
-    <div class="card sky">Twitter</div>
-    <div class="card green">TikTok</div>
+
+    <div class="card red">
+      <i class="fab fa-youtube"></i>
+      <h3>YouTube</h3>
+      <p>@BadhonEditzx</p>
+      <button>Subscribe</button>
+    </div>
+
+    <div class="card blue">
+      <i class="fab fa-telegram"></i>
+      <h3>Telegram</h3>
+      <p>@BadhonEditzx</p>
+      <button>Join</button>
+    </div>
+
+    <div class="card pink">
+      <i class="fab fa-instagram"></i>
+      <h3>Instagram</h3>
+      <p>@BadhonEditzx</p>
+      <button>Follow</button>
+    </div>
+
+    <div class="card white">
+      <i class="fab fa-x-twitter"></i>
+      <h3>Twitter / X</h3>
+      <p>@BadhonEditzx</p>
+      <button>Follow</button>
+    </div>
+
+    <div class="card green">
+      <i class="fab fa-tiktok"></i>
+      <h3>TikTok</h3>
+      <p>@BadhonEditzx</p>
+      <button>Follow</button>
+    </div>
+
   </div>
+
 </section>
 
+<!-- VIDEOS -->
 <section class="videos">
+
   <h2>LATEST VIDEOS</h2>
-  <div class="grid">
+
+  <div class="video-grid">
     <img src="v1.jpg">
     <img src="v2.jpg">
     <img src="v3.jpg">
   </div>
+
+  <button class="view">VIEW ALL VIDEOS</button>
+
 </section>
 
+<!-- ABOUT + CONTACT -->
+<section class="info">
+
+  <div class="box">
+    <h3>ABOUT ME</h3>
+    <p>I'm Badhon, a passionate video editor...</p>
+    <button>Know More</button>
+  </div>
+
+  <div class="center-logo">
+    <img src="logo-big.png">
+  </div>
+
+  <div class="box">
+    <h3>CONTACT ME</h3>
+    <p>badhoneditzx@gmail.com</p>
+    <button>Send Message</button>
+  </div>
+
+</section>
+
+<!-- MUSIC PLAYER -->
 <div class="player">
   <audio controls autoplay loop>
     <source src="music.mp3">
